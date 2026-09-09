@@ -1,0 +1,11 @@
+{
+  "type": "record",
+  "name": "Order",
+  "namespace": "com.bda.assignment",
+  "doc": "A purchase transaction sent through Kafka.",
+  "fields": [
+    {"name": "orderId", "type": "string"},
+    {"name": "product", "type": "string"},
+    {"name": "price", "type": "float"}
+  ]
+}
