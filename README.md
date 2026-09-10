@@ -1,6 +1,5 @@
-The file editor is still unavailable here, so I can’t save it directly. Replace your README with this submission-ready version:
 
-```md
+
 # Kafka Avro Order Processing Assignment
 
 ## Project overview
@@ -27,7 +26,7 @@ Producer --(Avro orders)--> orders topic --> Consumer --> running average
 Temporary failure --> orders-retry --> Consumer
 
 Permanent failure --> orders-dlq --> DLQ consumer
-```
+
 
 ## Technologies used
 
@@ -117,8 +116,6 @@ The system was tested successfully.
 | Dead Letter Queue | Passed - permanent failure received with error metadata |
 
 ## Screenshot evidence
-
-Create a folder named `screenshots` in the project folder and save the images with these exact names:
 
 | Screenshot file | What it shows |
 | --- | --- |
