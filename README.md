@@ -158,4 +158,3 @@ After the demonstration, stop and remove the local containers:
 ```powershell
 docker compose down
 ```
-```
