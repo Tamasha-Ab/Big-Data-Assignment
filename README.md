@@ -20,7 +20,7 @@ It demonstrates real-time order processing using Apache Kafka, Avro serializatio
 
 ## Project architecture
 
-```text
+
 Producer --(Avro orders)--> orders topic --> Consumer --> running average
 
 Temporary failure --> orders-retry --> Consumer
@@ -51,7 +51,7 @@ Run the following commands in PowerShell from the project folder:
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
-```
+
 
 Start Kafka and Schema Registry:
 
